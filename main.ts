@@ -3,9 +3,6 @@ const phoneme = {
     "V": ["a", "i", "u", "e", "o"],
 }
 
-const syllable = "CV"
-const distance = 2
-
 function masking(length: number){
     let maskes: number[][] = []
     for (let i=0; i<length; i++){
