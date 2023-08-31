@@ -58,5 +58,4 @@ function makeVariation(build: string) {
     return words
 }
 
-console.log(masking(3))
 console.log(makeVariation("CVCVC"))
